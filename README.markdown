@@ -1,4 +1,4 @@
-# Usage:
+## Usage:
 
 Make sure you have PHP 5.4 installed
 
