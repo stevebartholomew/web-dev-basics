@@ -17,7 +17,7 @@ git branch my_features
 ## 4. Searching TODOs
 
 * Add form at the top of the page to search todo items (hint: set the form 'method' to `GET` & use the `$_GET` hash in PHP instead of `$_POST`
-* Write a block of code to execute an SQL `SELECT` query for the item using the `WHERE description LIKE` statement
+* Edit the `$results = $db->query` line to optionally add a `WHERE description LIKE` statement to the SQL query
 
 ## 5. Make it look pretty
 
