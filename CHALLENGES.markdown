@@ -12,9 +12,14 @@ git branch my_features
 
 * Add form for each row next to the todo title &amp; include the 'id' column from the database
 * Set the action to 'delete'
-* Write a block of code to execute an SQL 'DELETE' query for the item
+* Write a block of code to execute an SQL `DELETE` query for the item
 
-## 4. Make it look pretty
+## 4. Searching TODOs
+
+* Add form at the top of the page to search todo items (hint: set the form 'method' to `GET` & use the `$_GET` hash in PHP instead of `$_POST`
+* Write a block of code to execute an SQL `SELECT` query for the item using the `WHERE name LIKE` statement
+
+## 5. Make it look pretty
 
 * Add a `<style>...</style>` block and add some CSS
 
